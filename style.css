@@ -1,5 +1,7 @@
 * {
     margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -9,16 +11,16 @@ body {
 
 header {
     background-color: white;
+    line-height: 50px;
 }
 
-.img {
+#img {
     padding-top: 25px;
     margin-left: 25px;
 }
 
 .inline {
     display: inline-block;
-    line-height: 50px;
     vertical-align: middle;
 }
 
@@ -29,18 +31,18 @@ h1 {
 main {
     background-color: white;
     margin: 10px 15% 5px;
-    padding: 15px;
+    padding: 20px 0px 10px 30px;
+    border-radius: 15px;
 }
 
 .button {
     border-radius: 10px;
     color: white;
-    padding: 5px;
     text-align: center;
     display: inline-block;
     font-size: 12px;
-    margin-left: 15px;
     height: 30px;
+    padding: 5px;
 }
 
 #task {
@@ -53,3 +55,23 @@ main {
     border: 1px solid gray;
     color: grey;
 }
+
+section {
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 5px 0px 5px;
+    font-weight: 500;
+}
+
+h2::before {
+    content: "\2BC6 ";
+}
+
+
