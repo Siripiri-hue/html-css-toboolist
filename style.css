@@ -69,10 +69,14 @@ section {
 
 h2 {
     font-size: 20px;
+    line-height: 20px;
+    
 }
 
 h2::before {
-    content: "\2BC6 ";
+    content: "\2B9F\00A0";
+    font-size: 12px;
+    vertical-align: middle;
 }
 
 h3 {
